@@ -3,7 +3,7 @@ VERSION = 1,
 option ComplexDistributions.ItemsToRemove
 {
 	type = string,
-	default = 9mmClip/223Clip/308Clip/556Clip/M14Clip/45Clip/44Clip,
+	default = 9mmClip/223Clip/308Clip/556Clip/M14Clip/45Clip/44Clip/PistolCase1/PistolCase2/PistolCase3/RevolverCase1/RevolverCase2/RevolverCase3/RifleCase1/RifleCase2/RifleCase3/ShotgunCase1/ShotgunCase2/VarmintRifle/HuntingRifle/Shotgun/DoubleBarrelShotgun/DoubleBarrelShotgunSawnoff/ShotgunSawnoff/Pistol/Pistol2/Pistol3/Revolver/Revolver_Long/Revolver_Short/AssaultRifle/AssaultRifle2,
 	page = ComplexDistributions,
 	translation = ComplexDistributions_ItemsToRemove,
 }
