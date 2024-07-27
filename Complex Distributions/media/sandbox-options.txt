@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option ComplexDistributions.ItemsToRemove
+{
+	type = string,
+	default = 9mmClip/223Clip/308Clip/556Clip/M14Clip/45Clip/44Clip,
+	page = ComplexDistributions,
+	translation = ComplexDistributions_ItemsToRemove,
+}
+

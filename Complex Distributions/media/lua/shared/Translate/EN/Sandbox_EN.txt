@@ -1,0 +1,6 @@
+Sandbox_EN = {
+	Sandbox_ComplexDistributions = "Complex Distributions",
+
+	Sandbox_ComplexDistributions_ItemsToRemove = "Items to Remove"
+	Sandbox_ComplexDistributions_ItemsToRemove_tooltip = "Complete remove this items from spawning"
+}
