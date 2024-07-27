@@ -182,8 +182,10 @@ local function loadOptions()
     local lines = {}
     local line = fileReader:readLine();
     while line do
-        table.insert(lines, line)
-        line = fileReader:readLine();
+        -- Check if is a comment
+        if not line:match("^%s*--") then
+            table.insert(lines, line)
+        end
     end
     fileReader:close()
     ComplexDistributionsSpawnTable = loadstring(table.concat(lines, "\n"))() or {}
@@ -192,7 +194,7 @@ end
 
 local function onFillContainer(roomName, containerType, itemContainer)
     -- Uncoment this for getting the names for containers in terminal
-    -- print("CONTAINER SPAWNING: " .. roomName .. " " .. containerType);
+    print("CONTAINER SPAWNING: " .. roomName .. " " .. containerType);
     local containerItems = itemContainer:getItems();
 
     --#region Items to be removed
